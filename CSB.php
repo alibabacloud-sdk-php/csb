@@ -5,8 +5,8 @@ namespace AlibabaCloud\CSB;
 use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * @deprecated
+ * @method static V20171118\CSBApiResolver v20171118()
  */
-class CSBVersion extends VersionResolver
+class CSB extends VersionResolver
 {
 }
